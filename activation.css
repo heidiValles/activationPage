@@ -1,0 +1,304 @@
+#activation-title {
+    margin-top: 100px;
+    background-color: #f4a306;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#f2c434), to(#f49f01));
+    background: -webkit-radial-gradient(circle, #f2c434, #f49f01);
+    background: -moz-radial-gradient(circle, #f2c434, #f49f01);
+    background: -ms-radial-gradient(circle, #f2c434, #f49f01);
+    padding: 6% 0;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#activation-title h2 {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+#activation-title hr {
+    background: #000;
+    height: 1px;
+    border: none;
+    width: 180px;
+    margin: 1% auto;
+}
+
+#activation-nav {
+    font-size: 1.6em;
+}
+
+#activation-nav a {
+    color: #000;
+}
+
+#activation-nav div {
+    width: 33.33333%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+
+#activation-nav div div {
+    position: absolute;
+    background: rgba(255, 187, 0, .9);
+    color: #FFF;
+    left: 0;
+    bottom: 0;
+    padding: 8% 0;
+    text-align: center;
+    width: 100%;
+    transition: all .2s ease-out;
+    z-index: 10;
+}
+
+#activation-nav div div p {
+    color: #F0C032;
+    text-decoration: underline;
+    font-size: .8em;
+}
+
+#activation-nav div img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: scale(1.05);
+    transition: all .2s ease-out;
+}
+
+#activation-input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    width: 60%;
+    height: 30%;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+#activation-text-area {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+}
+
+#activation-key {
+    background-color: #2281AE;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#00b8e2), to(#0097c1));
+    background: -webkit-radial-gradient(circle, #00b8e2, #0097c1);
+    background: -moz-radial-gradient(circle, #00b8e2, #0097c1);
+    background: -ms-radial-gradient(circle, #00b8e2, #0097c1);
+    padding: 6% 0;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#activation-key hr {
+    background: #F29D01;
+    height: 1px;
+    border: none;
+    width: 180px;
+    margin: 1% auto;
+}
+
+#activation-key h2 {
+    color: #FFF;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+#activation-key div img {
+    float: left;
+    margin-right: 4%;
+    width: 20%;
+    height: auto;
+}
+
+#activation-key div p {
+    margin-top: 3%;
+}
+
+#activation-key div a {
+    color: #683B11;
+    text-decoration: underline;
+    display: block;
+    font-size: .8em;
+}
+
+#activation-key div a:hover {
+    color: #a36226;
+}
+
+#activation-lead {
+    background: #00b7e1;
+    margin-top: 100px;
+    background: -webkit-gradient(radial, right top, 0, center center, 460, from(#00b6e1), to(#009ac6));
+    background: -webkit-radial-gradient(right top, circle, #00b6e1, #009ac6);
+    background: -moz-radial-gradient(right top, circle, #00b6e1, #009ac6);
+    background: -ms-radial-gradient(right top, circle, #00b6e1, #009ac6);
+    color: #FFF;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#activation-lead h2 {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+#activation-lead hr {
+    background: #FFF;
+    height: 1px;
+    border: none;
+    width: 180px;
+    margin: 1% auto;
+}
+
+#activation-lead>div {
+    text-align: left;
+    margin-top: 8%;
+    display: block;
+}
+
+#activation-lead div img {
+    float: left;
+    border: #666 1px solid;
+    width: 20%;
+    height: auto;
+    margin-right: 3%;
+}
+
+#activation-lead div div.lead-name {
+    font-size: 1.8em;
+    float: left;
+    display: inline-block;
+    padding-right: 2%;
+    border-right: #FFF 1px solid;
+}
+
+#activation-lead div div.lead-pos {
+    background: #FFF;
+    border-radius: 3px;
+    color: #05A1C5;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-right: 3%;
+}
+
+#activation-lead div p {
+    margin-top: 4%;
+    margin-left: 23%;
+    text-align: justify;
+}
+
+#activation-key-input {
+    border-radius: 3px;
+    color: #000000;
+    font-size: 1em;
+    padding: 1px;
+    border-color: #F29D01;
+    width: 40%;
+    height: 30px;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+}
+
+#activation-key-input-a {
+    color: #FFF;
+    text-decoration: underline;
+    display: block;
+    font-size: .9em;
+}
+
+@media screen and (max-width: 1440px) {
+    #activation-title {
+        font-size: 1.4em;
+        padding: 4% 10%;
+    }
+    #activation-key {
+        font-size: 1.4em;
+        padding: 4% 10%;
+    }
+    #activation-nav {
+        font-size: 1.4em;
+    }
+    #activation-dl {
+        padding: 3% 10%;
+        font-size: 1.4em;
+    }
+    #activation-dl div.activation-dl-file {
+        width: 35%;
+        margin: 5% 5% 2%;
+        height: 80px;
+    }
+    #activation-lead {
+        font-size: 1em;
+        padding: 3% 10%;
+    }
+}
+
+
+/* 1380 */
+
+@media screen and (max-width: 1280px) {}
+
+
+/* 1280 */
+
+@media screen and (max-width: 1024px) {}
+
+
+/* 1024 */
+
+@media screen and (max-width: 768px) {
+    body {
+        /*font-size: .7em;*/
+    }
+    #activation-title {
+        margin-top: 60px;
+        font-size: 1em;
+    }
+    #activation-key {
+        font-size: 1em;
+    }
+    #activation-title hr,
+    #activation-lead hr,
+    #activation-dl hr {
+        width: 100px;
+    }
+    #activation-nav {
+        font-size: 1em;
+    }
+    #activation-dl {
+        font-size: 1em;
+        padding: 20px 5% 0;
+        width: 90%;
+    }
+    #activation-dl div.activation-dl-file {
+        width: 40%;
+        margin: 15px 0 5px;
+    }
+    #activation-lead div div.lead-name {
+        border: none;
+        font-size: 1.4em;
+    }
+    #activation-lead div div.lead-pos {
+        margin-left: 0;
+    }
+    #activation-lead h2 {
+        font-size: 1.4em;
+    }
+}

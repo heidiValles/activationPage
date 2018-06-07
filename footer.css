@@ -1,0 +1,158 @@
+/** Used in footer.htm */
+
+#footer {
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    font-size: 1.2em;
+    background: #000;
+    padding: 2% 20%;
+}
+
+#footer-wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 4%;
+}
+
+#footer-left {
+    display: inline-block;
+    width: 60%;
+    float: left;
+}
+
+#footer h4 {
+    color: #00BDE7;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 20px 0 10px;
+}
+
+#footer-left ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+#footer-left li {
+    margin: 10px 0;
+}
+
+
+/* ie needs position:relative here*/
+
+#footer-left li a {
+    color: #CECECE;
+    font-weight: 400;
+}
+
+#footer-left li a:hover {
+    color: #1e8fbc;
+}
+
+#footer-right {
+    float: left;
+}
+
+#footer-right ul {
+    list-style: none;
+}
+
+#footer-right ul li {
+    display: inline-block;
+    float: left;
+    margin-right: 14px;
+}
+
+#footer-right ul a {
+    display: block;
+    width: 44px;
+    height: 44px;
+    text-indent: -3000px;
+}
+
+#footer-right ul .social-fb {
+    background: url(../images/footer/ico_social.png) no-repeat;
+}
+
+#footer-right ul .social-fb:hover {
+    background: url(../images/footer/ico_social.png) no-repeat;
+    background-position: 0 -44px;
+}
+
+#footer-right ul .social-in {
+    background: url(../images/footer/ico_social.png) no-repeat;
+    background-position: -44px 0;
+}
+
+#footer-right ul .social-in:hover {
+    background: url(../images/footer/ico_social.png) no-repeat;
+    background-position: -44px -44px;
+}
+
+#footer-right ul .social-tw {
+    background: url(../images/footer/ico_social.png) no-repeat;
+    background-position: -88px 0;
+}
+
+#footer-right ul .social-tw:hover {
+    background: url(../images/footer/ico_social.png) no-repeat;
+    background-position: -88px -44px;
+}
+
+#footer-right ul .social-gp {
+    background: url(../images/footer/ico_social.png) no-repeat;
+    background-position: -132px 0;
+}
+
+#footer-right ul .social-gp:hover {
+    background: url(../images/footer/ico_social.png) no-repeat;
+    background-position: -132px -44px;
+}
+
+#footer .copyright {
+    font-size: .65em;
+    width: 100%;
+    text-align: center;
+    color: #CECECE;
+    padding-top: 18px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    #footer {
+        font-size: 1em;
+        padding: 2% 10% 4%;
+        text-align: center;
+    }
+    #footer h4 {
+        font-size: 1.4em;
+    }
+    #footer-wrap {
+        margin: 0 auto;
+        position: relative;
+        padding-bottom: 15%;
+    }
+    #footer-left {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    #footer-right {
+        display: inline-block;
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    #footer-right ul {
+        text-align: center;
+        width: 260px;
+        margin: 1% auto;
+        display: inline-block;
+    }
+    #footer-right ul li {
+        text-align: center;
+        margin: 0 10px;
+    }
+}

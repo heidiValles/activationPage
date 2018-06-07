@@ -1,0 +1,1412 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700);
+html,
+body {
+    height: 100%;
+    background: #FFF;
+    color: #1D1D1B;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #979797;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    background: #FFF;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    font-size: 1em;
+}
+
+#header-top {
+    position: relative;
+    height: 120px;
+    background: #FFF;
+    z-index: 150;
+}
+
+#header-wrap {
+    padding: 0 60px;
+}
+
+#header-logo {
+    background: url(../images/logo_c-labs.png) no-repeat center left;
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: 100px;
+    padding-left: 120px;
+    padding-top: 30px;
+    color: #4E4D4D;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#header-logo h1 {
+    color: #1E8FBD;
+    font-weight: 500;
+    font-size: 2.2em;
+}
+
+#header-logo span {
+    color: #1E8FBD;
+}
+
+#main-nav {
+    list-style: none;
+    position: relative;
+    float: right;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1em;
+    overflow: hidden;
+    height: 120px;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav li.current_page_item {
+    background: #1E8FBD;
+}
+
+#main-nav li a {
+    color: #0282A1;
+    padding: 53px 16px 53px 16px;
+    z-index: 200;
+    float: left;
+    position: relative;
+    font-weight: 400;
+    display: block;
+    -o-transition: color .1s ease-out, background .1s ease-in;
+    -ms-transition: color .1s ease-out, background .1s ease-in;
+    -moz-transition: color .1s ease-out, background .1s ease-in;
+    -webkit-transition: color .1s ease-out, background .1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition: color .1s ease-out, background .1s ease-in;
+}
+
+#main-nav li a:hover {
+    color: #FFF;
+    background: #41a3cb;
+}
+
+#main-nav-short {
+    display: none;
+}
+
+#magic-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120px;
+    background: #2290BD;
+    z-index: 100;
+}
+
+.content-wrap {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+/* Intro div */
+
+#intro {
+    position: relative;
+    min-height: 100%;
+    height: 600px;
+    width: auto;
+    overflow: hidden;
+    background: url(../images/index/intro.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#intro img {
+    width: auto;
+    height: 100%;
+}
+
+.intro-txt {
+    width: 100%;
+    top: 30%;
+    position: absolute;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.intro-txt div {
+    background: rgba(0, 105, 149, .85);
+    width: 70%;
+    color: #FFF;
+    text-align: center;
+    left: 50%;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    padding: 40px 5% 40px 5%;
+}
+
+.intro-txt h2 {
+    font-size: 3em;
+    margin-top: 20px;
+    top: 30%;
+    padding-bottom: 30px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: capitalize;
+}
+
+.intro-txt hr {
+    height: 2px;
+    border: none;
+    width: 120px;
+    background: #FFF;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.intro-txt p {
+    font-size: 1.4em;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+.intro-txt span {
+    color: #00BBE5;
+    padding-top: 30px;
+    display: block;
+}
+
+.intro-link {
+    color: #FFF;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.intro-link:hover {
+    text-decoration: none;
+}
+
+#intro-arrdown {
+    background: url(../images/arr_down.png) center no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -31px;
+    cursor: pointer;
+    display: block;
+}
+
+#intro2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    font-size: 1.4em;
+    color: #767676;
+    z-index: 200;
+}
+
+#intro2 h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #575756;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#intro2 hr {
+    height: 3px;
+    border: none;
+    background: #767676;
+    width: 160px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.scroll {
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+#overall {
+    width: 100%;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    float: left;
+    background-color: #008ebb;
+    background: -webkit-gradient(radial, right top, 0, center center, 460, from(#00b7e1), to(#008ebb));
+    background: -webkit-radial-gradient(right top, circle, #00b7e1, #008ebb);
+    background: -moz-radial-gradient(right top, circle, #00b7e1, #008ebb);
+    background: -ms-radial-gradient(right top, circle, #00b7e1, #008ebb);
+}
+
+#overall>div {
+    width: 33.33333333%;
+    font-size: 38px;
+    font-weight: 500;
+    float: left;
+}
+
+#overall .overall-title {
+    color: #FFF;
+    width: 31.33333333%;
+    margin-top: 8%;
+    margin-left: 2%;
+    font-size: 2em;
+}
+
+#overall .overall-title h2 {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+#overall .overall-title hr {
+    width: 30%;
+    background: #FFF;
+    border: none;
+    height: 3px;
+    margin: 20px 0;
+}
+
+.overall-pic {
+    overflow: hidden;
+    background: #000;
+    position: relative;
+}
+
+.overall-pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    transform: scale(1.05);
+}
+
+.overall-pic-desc {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 153, 197, .8);
+    z-index: 10;
+    text-align: center;
+    padding: 6% 0;
+    transition: all .2s ease-out;
+}
+
+.overall-pic h3 {
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    transition: all .2s ease-out;
+}
+
+.overall-pic p {
+    color: #1d3e5b;
+    font-size: .9em;
+    transition: all .2s ease-out;
+}
+
+#frost {
+    width: 100%;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#frost .frost_1 {
+    width: 50%;
+    color: #FFF;
+    font-size: 1.4em;
+    background-color: #f4a306;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#f2c434), to(#f49f01));
+    background: -webkit-radial-gradient(circle, #f2c434, #f49f01);
+    background: -moz-radial-gradient(circle, #f2c434, #f49f01);
+    background: -ms-radial-gradient(circle, #f2c434, #f49f01);
+    padding: 4% 0;
+    display: inline;
+    float: left;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#frost .frost_1 div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#frost .frost_1 img {
+    width: 70%;
+    height: auto;
+}
+
+#frost .frost_1 hr {
+    width: 60%;
+    background: #FFF;
+    border: none;
+    height: 2px;
+    margin: 20px auto;
+}
+
+#frost .frost_2a {
+    width: 50%;
+    background-size: 80%;
+    float: left;
+    padding-top: 7%;
+    font-size: 1.4em;
+}
+
+#frost .frost_2a img {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+
+#frost .frost_2a a {
+    color: #805F36;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0 auto;
+    text-decoration: underline;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#frost .frost_2a a:hover {
+    color: #a8793e;
+}
+
+
+/* Factory */
+
+section.module.parallax {
+    padding: 140px 0;
+    background-position: 0 0;
+    position: relative;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+
+section.module.parallax-1 {
+    background: url(../images/factory_parallax.jpg);
+    background-size: cover;
+    background-position: 100px 0;
+    height: 30%;
+}
+
+.parallax-1-none {
+    display: none;
+}
+
+section.module.content {
+    padding: 80px 0;
+}
+
+.fact-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #0082af;
+    background: -webkit-gradient(radial, 25% top, 0, center center, 460, from(rgba(255, 255, 255, .5)), to(rgba(255, 255, 255, 0)));
+    background: -webkit-radial-gradient(25% top, circle, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+    background: -moz-radial-gradient(25% top, circle, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+    background: -ms-radial-gradient(25% top, circle, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+    z-index: 15;
+}
+
+.fact-container {
+    background: #0082af;
+    background: -webkit-gradient(radial, right top, 0, center center, 460, from(#0095c2), to(#006998));
+    background: -webkit-radial-gradient(right top, circle, #0095c2, #006998);
+    background: -moz-radial-gradient(right top, circle, #0095c2, #006998);
+    background: -ms-radial-gradient(right top, circle, #0095c2, #006998);
+    width: 50%;
+    height: 33%;
+    padding: 4% 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    z-index: 20;
+}
+
+.fact-container h2 {
+    margin-bottom: 40px;
+    font-size: 3.4em;
+    font-weight: 600;
+}
+
+.fact-container p {
+    font-size: 1.5em;
+    padding: 0 12%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.fact-container a {
+    color: #FFF;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+#cdengine {
+    width: 100%;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    color: #FFF;
+    background: #0082af;
+    background: -webkit-gradient(radial, 50% top, 0, center center, 460, from(#0095c2), to(#006998));
+    background: -webkit-radial-gradient(50% top, circle, #0095c2, #006998);
+    background: -moz-radial-gradient(50% top, circle, #0095c2, #006998);
+    background: -ms-radial-gradient(50% top, circle, #0095c2, #006998);
+}
+
+#cdengine-left {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 6% 0 0;
+}
+
+#cdengine-left h2 {
+    font-weight: 600;
+    font-size: 3.4em;
+    margin-bottom: 40px;
+}
+
+#cdengine-left p {
+    font-size: 1.5em;
+    padding: 0 12%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#cdengine-left a {
+    color: #FFF;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+#cdengine-right {
+    width: 50%;
+    float: left;
+}
+
+#cdengine-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#cdengine-ex {
+    width: 100%;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    color: #FFF;
+    background: #0082af;
+}
+
+#cdengine-ex img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#solution {
+    width: 100%;
+    background: #0082af;
+    background: -webkit-gradient(radial, center top, 0, center center, 460, from(#0095c2), to(#006998));
+    background: -webkit-radial-gradient(center top, circle, #0095c2, #006998);
+    background: -moz-radial-gradient(center top, circle, #0095c2, #006998);
+    background: -ms-radial-gradient(center top, circle, #0095c2, #006998);
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    font-size: 1em;
+    color: #FFF;
+    text-align: center;
+    padding: 4% 0 0;
+}
+
+#solution h2 {
+    font-size: 3.4em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#solution p {
+    font-size: 1.6em;
+}
+
+#solution ul {
+    list-style: none;
+    margin-top: 80px;
+}
+
+#solution li {
+    float: left;
+    width: 24.6%;
+    margin: .4% .2% 0;
+}
+
+#solution li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#contact {
+    width: 100%;
+    background: #1D3E5B;
+    text-align: center;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    color: #FFF;
+    font-size: 1em;
+    padding: 3% 0 5%;
+    border-bottom: #274c6d 1px solid;
+}
+
+#contact h2 {
+    color: #00BEE8;
+    font-weight: 600;
+    font-size: 3.4em;
+}
+
+#contact p {
+    margin: 1% 20% 4% 20%;
+    font-size: 1.8em;
+}
+
+#contact-detail {
+    text-align: left;
+    font-size: 1.4em;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#contact #contact-left {
+    float: left;
+    width: 60%;
+    font-size: 1.4em;
+    display: inline-block;
+    position: relative;
+}
+
+#contact #contact-right {
+    float: left;
+    display: inline-block;
+}
+
+#contact #contact-left ul {
+    font-size: .55em;
+    margin-top: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    font-size: .9em;
+}
+
+#contact ul li {
+    margin-top: 18px;
+}
+
+#contact ul a {
+    color: #FFF;
+}
+
+#contact span {
+    color: #00BEE8;
+    width: 10%;
+}
+
+#top {
+    background: #f2b41f;
+    background: -webkit-gradient(radial, center top, 0, center center, 460, from(#f1c83a), to(#f39f03));
+    background: -webkit-radial-gradient(center top, circle, #f1c83a, #f39f03);
+    background: -moz-radial-gradient(center top, circle, #f1c83a, #f39f03);
+    background: -ms-radial-gradient(center top, circle, #f1c83a, #f39f03);
+    padding: 1% 0;
+    text-align: center;
+}
+
+#top a {
+    color: #000;
+    font-weight: 500;
+    background: url(../images/arr_top.png) no-repeat top center;
+    display: block;
+    padding-top: 30px;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 40px;
+    width: auto;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#smnav {
+    display: none;
+}
+
+#nav-small {
+    display: none;
+}
+
+div.map {
+    position: absolute;
+    left: 65%;
+    bottom: 40px;
+    width: 100px;
+    height: 80px;
+    font-size: .5em;
+    text-align: center;
+}
+
+div.map a {
+    background: url(../images/contacts/ico_pin.png) no-repeat;
+    background-position: center -150px;
+    color: #00BCE6;
+    display: block;
+    width: 100%;
+    height: 20px;
+    padding-top: 50px;
+}
+
+div.map a:hover {
+    background: url(../images/contacts/ico_pin.png) no-repeat top center;
+    color: #FFF;
+}
+
+@media screen and (max-width: 1620px) {
+    #main-nav li a {
+        color: #0282A1;
+        padding: 53px 12px;
+    }
+    .overall-pic-desc {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    #header {
+        font-size: .9em;
+    }
+    #header-wrap {
+        padding: 0 20px;
+        position: relative;
+    }
+    #frost .frost_2a {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #main-nav {
+        font-size: .90em;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    #header {
+        background: #FFF;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+    }
+    #header-top {
+        position: relative;
+        height: 100px;
+        background: #FFF;
+        z-index: 150;
+    }
+    #header-wrap {
+        padding: 0 10px;
+        position: relative;
+    }
+    #header-logo {
+        background: url(../images/logo_c-labs.png) no-repeat center left;
+        background-size: 80px 75px;
+        display: inline-block;
+        float: left;
+        width: auto;
+        height: 100px;
+        padding-left: 100px;
+        padding-top: 5px;
+        color: #4E4D4D;
+        font-size: .95em;
+    }
+    #header-logo h1 {
+        color: #1E8FBD;
+        font-weight: 500;
+        font-size: 2em;
+        margin-top: 10px;
+    }
+    #main-nav {
+        list-style: none;
+        position: relative;
+        float: right;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: .8em;
+        overflow: hidden;
+        height: 100px;
+    }
+    #main-nav li a {
+        color: #0282A1;
+        padding: 40px 16px 53px 16px;
+        z-index: 200;
+        float: left;
+        position: relative;
+        font-weight: 400;
+        display: block;
+        -o-transition: color .1s ease-out, background .1s ease-in;
+        -ms-transition: color .1s ease-out, background .1s ease-in;
+        -moz-transition: color .1s ease-out, background .1s ease-in;
+        -webkit-transition: color .1s ease-out, background .1s ease-in;
+        /* ...and now override with proper CSS property */
+        transition: color .1s ease-out, background .1s ease-in;
+    }
+    #overall .overall-title {
+        color: #FFF;
+        width: 31.33333333%;
+        margin-top: 7%;
+        margin-left: 2%;
+        font-size: 1.6em;
+    }
+    #overall .overall-title h2 {
+        font-weight: 500;
+        font-size: 1.4em;
+    }
+    #frost .frost_1 {
+        width: 50%;
+        color: #FFF;
+        font-size: 1.2em;
+        background-color: #f4a306;
+        background: -webkit-gradient(radial, center center, 0, center center, 460, from(#f2c434), to(#f49f01));
+        background: -webkit-radial-gradient(circle, #f2c434, #f49f01);
+        background: -moz-radial-gradient(circle, #f2c434, #f49f01);
+        background: -ms-radial-gradient(circle, #f2c434, #f49f01);
+        padding: 4% 0;
+        display: inline;
+        float: left;
+        text-transform: capitalize;
+    }
+    #frost .frost_2a {
+        width: 49%;
+        background-size: 85%;
+        background-position: center 60%;
+        text-align: center;
+        float: left;
+        padding-top: 6%;
+        font-size: 1.05em;
+    }
+    #frost .frost_2a a {
+        font-size: 1em;
+    }
+    .fact-container h2 {
+        margin-bottom: 40px;
+        font-size: 3em;
+        font-weight: 600;
+    }
+    .fact-container p {
+        font-size: 1.2em;
+        padding: 0 12%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .fact-container a {
+        color: #FFF;
+        font-size: 1em;
+        margin-top: 30px;
+    }
+    #cdengine-left {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 4% 0 0;
+    }
+    #cdengine-left h2 {
+        font-weight: 600;
+        font-size: 3em;
+        margin-bottom: 40px;
+    }
+    #cdengine-left p {
+        font-size: 1.2em;
+        padding: 0 12%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    #cdengine-left a {
+        color: #FFF;
+        font-size: 1.0em;
+        margin-top: 30px;
+    }
+    .intro-txt {
+        width: 100%;
+        top: 25%;
+        position: absolute;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .intro-txt div {
+        background: rgba(0, 105, 149, .85);
+        width: 70%;
+        color: #FFF;
+        text-align: center;
+        left: 50%;
+        margin-left: 20%;
+        font-size: .9em;
+        font-weight: 500;
+        font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+        padding: 20px 5% 20px 5%;
+    }
+    .intro-txt h2 {
+        font-size: 1.8em;
+        margin-top: 0px;
+        top: 30%;
+        padding-bottom: 30px;
+        font-weight: 500;
+        line-height: 1.2em;
+        text-transform: capitalize;
+    }
+    .intro-desc {
+        background: #FFF;
+        position: absolute;
+        bottom: 0%;
+        height: 300px;
+        padding: 20px 15%;
+        width: 70%;
+        font-size: 1em;
+        line-height: 1.4em;
+        font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+        color: #666;
+        text-align: center;
+        z-index: 100;
+    }
+    .overall-pic-desc {
+        font-size: .7em;
+    }
+    #contact {
+        width: 100%;
+        background: #1D3E5B;
+        text-align: center;
+        font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+        color: #FFF;
+        font-size: .8em;
+        padding: 3% 0 5%;
+        border-bottom: #274c6d 1px solid;
+    }
+    #contact #contact-left {
+        float: left;
+        width: 55%;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
+
+/* 1380 end */
+
+@media screen and (max-width: 1280px) {
+    #header-wrap {
+        padding: 0 10px;
+    }
+    #main-nav {
+        display: none;
+    }
+    #main-nav-short {
+        display: inline-block;
+        list-style: none;
+        position: relative;
+        float: right;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: .85em;
+        overflow: hidden;
+        height: 100px;
+    }
+    #main-nav-short li {
+        display: inline-block;
+        text-align: center;
+    }
+    #main-nav-short li.current_page_item {
+        background: #1E8FBD;
+    }
+    #main-nav-short li a {
+        color: #0282A1;
+        padding: 28px 12px 36px 12px;
+        z-index: 200;
+        float: left;
+        position: relative;
+        font-weight: 400;
+        display: block;
+        -o-transition: color .1s ease-out, background .1s ease-in;
+        -ms-transition: color .1s ease-out, background .1s ease-in;
+        -moz-transition: color .1s ease-out, background .1s ease-in;
+        -webkit-transition: color .1s ease-out, background .1s ease-in;
+        /* ...and now override with proper CSS property */
+        transition: color .1s ease-out, background .1s ease-in;
+    }
+    #main-nav-short li a:hover {
+        color: #FFF;
+        background: #41a3cb;
+    }
+    #solution h2 {
+        font-size: 3em;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    #solution p {
+        font-size: 1.4em;
+    }
+    #frost .frost_2a {
+        width: 49%;
+        background-size: 95%;
+        background-position: center 60%;
+        text-align: center;
+        float: left;
+        padding-top: 6%;
+        font-size: 1em;
+    }
+    #frost .frost_2a img {
+        width: 75%;
+        height: auto;
+    }
+}
+
+
+/* 1280 */
+
+@media screen and (max-width: 1120px) {
+    #main-nav-short {
+        display: inline-block;
+        list-style: none;
+        position: relative;
+        float: right;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: .8em;
+    }
+    #main-nav-short li {
+        display: inline-block;
+        text-align: center;
+    }
+    #main-nav-short li.current_page_item {
+        background: #1E8FBD;
+    }
+    #main-nav-short li a {
+        color: #0282A1;
+        padding: 28px 8px 36px 8px;
+        z-index: 200;
+        float: left;
+        position: relative;
+        font-weight: 400;
+        display: block;
+        -o-transition: color .1s ease-out, background .1s ease-in;
+        -ms-transition: color .1s ease-out, background .1s ease-in;
+        -moz-transition: color .1s ease-out, background .1s ease-in;
+        -webkit-transition: color .1s ease-out, background .1s ease-in;
+        /* ...and now override with proper CSS property */
+        transition: color .1s ease-out, background .1s ease-in;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #main-nav {
+        display: none;
+    }
+    #header {
+        background: #FFF;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+        overflow: visible;
+    }
+    #header-wrap {
+        padding: 0 10px;
+    }
+    #header-logo {
+        background: url(../images/logo_c-labs.png) no-repeat center left;
+        background-size: 80px 75px;
+        display: inline-block;
+        float: left;
+        width: auto;
+        height: 80px;
+        padding-left: 100px;
+        padding-top: 10px;
+        color: #4E4D4D;
+        font-size: .95em;
+    }
+    #header-logo h1 {
+        margin-top: 10px;
+    }
+    #header-logo div {
+        font-size: 1em;
+    }
+    #main-nav-short {
+        display: none;
+    }
+    .intro-txt {
+        width: 100%;
+        top: 25%;
+        position: absolute;
+        text-align: center;
+    }
+    .intro-txt div {
+        background: rgba(0, 105, 149, .85);
+        width: 70%;
+        color: #FFF;
+        text-align: center;
+        left: 50%;
+        margin-left: 20%;
+        font-size: .8em;
+        font-weight: 500;
+        font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+        padding: 20px 5% 20px 5%;
+    }
+    .intro-txt h2 {
+        font-size: 2em;
+        margin-top: 0px;
+        padding-bottom: 30px;
+        font-weight: 500;
+        line-height: 1em;
+        text-transform: capitalize;
+    }
+    .intro-desc {
+        background: #FFF;
+        position: absolute;
+        bottom: 0%;
+        height: 300px;
+        padding: 20px 15%;
+        width: 70%;
+        font-size: 1em;
+        line-height: 1.4em;
+        font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+        color: #666;
+        text-align: center;
+        z-index: 100;
+    }
+    #overall .overall-title {
+        color: #FFF;
+        width: 31.33333333%;
+        margin-top: 5%;
+        margin-left: 2%;
+        font-size: 1.2em;
+    }
+    #frost .frost_1 {
+        width: 100%;
+        color: #FFF;
+        font-size: 1em;
+        background-color: #f4a306;
+        background: -webkit-gradient(radial, center center, 0, center center, 460, from(#f2c434), to(#f49f01));
+        background: -webkit-radial-gradient(circle, #f2c434, #f49f01);
+        background: -moz-radial-gradient(circle, #f2c434, #f49f01);
+        background: -ms-radial-gradient(circle, #f2c434, #f49f01);
+        padding: 8% 0;
+        text-transform: capitalize;
+    }
+    #frost .frost_2a {
+        width: 100%;
+        background-size: 80%;
+        background-position: center 60%;
+        text-align: center;
+        padding-top: 10%;
+        font-size: 1.4em;
+        padding-bottom: 30px;
+    }
+    #frost .frost_2a p {
+        margin-top: 10px;
+        font-weight: 600;
+        display: block;
+        height: 120px;
+    }
+    .fact-container h2 {
+        margin-bottom: 20px;
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .fact-container p {
+        font-size: 1em;
+        padding: 0 12%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .fact-container a {
+        color: #FFF;
+        font-size: 1em;
+        margin-top: 30px;
+    }
+    #cdengine-left {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 4% 0 0;
+    }
+    #cdengine-left h2 {
+        font-weight: 600;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    #cdengine-left p {
+        font-size: 1em;
+        padding: 0 12%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    #cdengine-left a {
+        color: #FFF;
+        font-size: 1em;
+        margin-top: 30px;
+    }
+    .overall-pic-desc {
+        font-size: .5em;
+    }
+    section.module.parallax-1 {
+        background: url(../images/factory_parallax.jpg);
+        background-size: cover;
+        background-position: 100px 0;
+        height: 12%;
+    }
+    #contact {
+        width: 100%;
+        font-size: .8em;
+    }
+    #contact p {
+        margin: 1% 5% 4% 5%;
+        font-size: 1.4em;
+    }
+    #contact-detail {
+        width: 100%;
+        min-width: 100%;
+        position: relative;
+    }
+    #contact #contact-left {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        padding-bottom: 100px;
+    }
+    #contact #contact-left ul {
+        font-size: .8em;
+        margin-top: 6px;
+    }
+    #contact #contact-right {
+        text-align: center;
+        width: 100%;
+        font-size: 1em;
+        margin: 0px 0 30px;
+    }
+    div.map {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 100px;
+        height: 80px;
+        font-size: .5em;
+        text-align: center;
+        margin-left: -50px;
+    }
+    div.map a {
+        background: url(../images/contacts/ico_pin.png) no-repeat;
+        background-position: center -150px;
+        color: #00BCE6;
+        display: block;
+        width: 100%;
+        height: 20px;
+        padding-top: 50px;
+    }
+    div.map a:hover {
+        background: url(../images/contacts/ico_pin.png) no-repeat top center;
+        color: #FFF;
+    }
+    #smnav {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 18px;
+        cursor: pointer;
+    }
+    #nav-small {
+        display: none;
+        position: fixed;
+        background: #1e8fbc;
+        width: 100%;
+        z-index: 450;
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .nav-small2 {
+        margin-top: 100px;
+    }
+    #nav-small li {
+        border-bottom: #FFF 1px solid;
+        padding: 16px 0;
+    }
+    #nav-small li a {
+        color: #FFF;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #nav-small li.current_page_item {
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    .nav-small2 {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        background: #FFF;
+        width: 100%;
+        height: 60px;
+    }
+    #header-top {
+        position: relative;
+        height: 60px;
+        background: #FFF;
+        z-index: 150;
+    }
+    #header-logo {
+        padding-top: 0;
+        background-size: 50px 47px;
+        height: 60px;
+        padding-left: 60px;
+    }
+    #header-logo div {
+        font-size: .6em;
+        width: 120px;
+    }
+    #header-logo h1 {
+        margin-top: 6px;
+    }
+    .nav-small2 {
+        margin-top: 0px;
+    }
+    #smnav {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 12px;
+        cursor: pointer;
+    }
+    #smnav img {
+        width: 60%;
+        height: auto;
+    }
+    #intro2 {
+        font-size: .9em;
+        padding: 0 5%;
+        width: 90%;
+        margin: 40px 0;
+    }
+    #intro2 h2 {
+        font-size: 1.4em;
+    }
+    section.module.parallax-1 {
+        display: none;
+    }
+    .parallax-1-none {
+        display: block;
+        background: url(../images/factory_parallax.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 40%;
+    }
+    #frost .frost_2a {
+        font-size: .8em;
+        font-weight: 500;
+        padding: 20px 0;
+        background: none;
+        background-size: 100%;
+    }
+    #frost .frost_2a p {
+        margin-top: 40px;
+    }
+    #overall {
+        width: 100%;
+        font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+        float: left;
+        background-color: #008ebb;
+        background: -webkit-gradient(radial, right top, 0, center center, 460, from(#00b7e1), to(#008ebb));
+        background: -webkit-radial-gradient(right top, circle, #00b7e1, #008ebb);
+        background: -moz-radial-gradient(right top, circle, #00b7e1, #008ebb);
+        background: -ms-radial-gradient(right top, circle, #00b7e1, #008ebb);
+        font-size: .7em;
+    }
+    #overall>div {
+        width: 50%;
+        font-size: 38px;
+        font-weight: 500;
+        float: left;
+    }
+    #overall .overall-title {
+        color: #FFF;
+        width: 48%;
+        margin-top: 8%;
+        margin-left: 2%;
+        font-size: 1em;
+    }
+    .overall-pic-desc {
+        font-size: .5em;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .overall-pic-desc {
+        font-size: .4em;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .overall-pic-desc {
+        font-size: .3em;
+    }
+}

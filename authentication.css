@@ -1,0 +1,183 @@
+#authentication-title {
+    margin-top: 100px;
+    background-color: #f4a306;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#f2c434), to(#f49f01));
+    background: -webkit-radial-gradient(circle, #f2c434, #f49f01);
+    background: -moz-radial-gradient(circle, #f2c434, #f49f01);
+    background: -ms-radial-gradient(circle, #f2c434, #f49f01);
+    padding: 6% 0;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#authentication-title h2 {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+#authentication-title hr {
+    background: #000;
+    height: 1px;
+    border: none;
+    width: 180px;
+    margin: 1% auto;
+}
+
+#authentication-input {
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    width: 60%;
+    height: 30%;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+#authentication-text-area {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+}
+
+#authentication-button {
+    background: #f2c434;
+    text-align: center;
+    border-radius: 3px;
+    width: 20%;
+    transition: all .2s ease-out;
+    padding: 1% 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+#authentication-key {
+    background-color: rgba(0, 133, 174, .9);
+    padding: 6% 0;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#authentication-key hr {
+    background: #F29D01;
+    height: 1px;
+    border: none;
+    width: 180px;
+    margin: 1% auto;
+}
+
+#authentication-key h2 {
+    color: #FFF;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+#authentication-key div img {
+    float: left;
+    margin-right: 4%;
+    width: 20%;
+    height: auto;
+}
+
+#authentication-key div p {
+    margin-top: 3%;
+}
+
+#authentication-key div a {
+    color: #683B11;
+    text-decoration: underline;
+    display: block;
+    font-size: .8em;
+}
+
+#authentication-key div a:hover {
+    color: #a36226;
+}
+
+#authentication-key-input {
+    border-radius: 3px;
+    color: #000000;
+    font-size: 1em;
+    padding: 1px;
+    border-color: #F29D01;
+    width: 40%;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+}
+
+#authentication-key-input-a {
+    color: #FFF;
+    text-decoration: underline;
+    display: block;
+    font-size: .9em;
+}
+
+#post-validation {
+    background-color: rgba(0, 133, 174, .9);
+    padding: 6% 0;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#post-validation hr {
+    background: #F29D01;
+    height: 1px;
+    border: none;
+    width: 180px;
+    margin: 1% auto;
+}
+
+#post-validation h2 {
+    color: #FFF;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1440px) {
+    #authentication-title {
+        font-size: 1.4em;
+        padding: 4% 10%;
+    }
+    #authentication-key {
+        font-size: 1.4em;
+        padding: 4% 10%;
+    }
+    #post-validation {
+        font-size: 1.4em;
+        padding: 4% 10%;
+    }
+}
+
+
+/* 1380 */
+
+@media screen and (max-width: 1280px) {}
+
+
+/* 1280 */
+
+@media screen and (max-width: 1024px) {}
+
+
+/* 1024 */
+
+@media screen and (max-width: 768px) {
+    #authentication-title {
+        margin-top: 60px;
+        font-size: 1em;
+    }
+    #authentication-key {
+        font-size: 1em;
+    }
+    #post-validation {
+        font-size: 1em;
+    }
+}
